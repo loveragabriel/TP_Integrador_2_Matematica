@@ -27,15 +27,6 @@ Además, cumplimos con las consignas de manipular dígitos, hacer cálculos con 
 
 ---
 
-## Qué aprendí haciendo este trabajo
-
-- A manejar conjuntos en Python para representar datos reales (los dígitos de los DNIs).  
-- A usar estructuras repetitivas y condicionales para contar, sumar y evaluar condiciones.  
-- A combinar la teoría matemática de conjuntos y lógica con la programación práctica.  
-- La importancia de organizar el código con funciones claras y comentadas para que sea fácil de entender y mantener.
-
----
-
 ## Cómo ejecutar el programa
 
 1. Abrir el archivo `.py` en un entorno Python (por ejemplo, en la terminal o usando un editor como VSCode).  
