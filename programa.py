@@ -93,6 +93,10 @@ def evaluar_condiciones_logicas(conjuntoA, conjuntoB):
         print(f"Diversidad numérica alta en conjunto 1 (tiene {len(conjuntoA)} elementos)")
     if len(conjuntoB) > 6:
         print(f"Diversidad numérica alta en conjunto 2 (tiene {len(conjuntoB)} elementos)")
+    if 0 not in conjuntoA and 0 not in conjuntoB:
+        print("Grupo sin ceros")
+    if len(conjuntoA) % 2 == 0 and len(conjuntoB) % 2 == 0:
+        print("Ambos conjuntos tienen cantidad par de elementos")
 
 # Imprimimos condiciones evaluadas. 
 evaluar_condiciones_logicas(conjunto_1, conjunto_2)
