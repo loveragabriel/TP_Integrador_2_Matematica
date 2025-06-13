@@ -29,11 +29,14 @@ Además, cumplimos con las consignas de manipular dígitos, hacer cálculos con 
 
 ## Cómo ejecutar el programa
 
-1. Abrir el archivo `.py` en un entorno Python (por ejemplo, en la terminal o usando un editor como VSCode).  
-2. Ejecutar el script:  
+1. Ubicarse en la carpeta del archivo conjunto.py o anios.py
+2. Abrir terminal  
+3. Ejecutar programa de conjuntos
    ```bash
-   python nombre_del_archivo.py
-
+   python3 conjunto.py
+2. Ejecutar programa de años:
+   ```bash
+   python3 anios.py
 ---
 
 
