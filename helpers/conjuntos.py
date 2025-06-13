@@ -27,7 +27,7 @@ def interseccion_conjuntos(conjuntos):
       if es_interseccion: interseccion.append(numero)
 
     if len(interseccion):
-      print(f"La interseccion de los conjuntos es: {interseccion}")
+      print(interseccion)
     else:
       print("No hay elementos que coincidan")
 
@@ -48,7 +48,7 @@ def diferencia_conjuntos(conjuntos):
           numero_existe = True
       if not numero_existe: diferencia.append(numero)
     if len(diferencia):
-      print(f"La diferencia de los conjuntos es: {diferencia}")
+      print(diferencia)
     else:
       print("No existe diferencia entre los elementos")
 

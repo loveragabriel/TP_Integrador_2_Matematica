@@ -17,8 +17,8 @@ def operaciones_conjuntos():
 
   print("Conjuntos ordenados", conjuntos)
 
-  union_conjuntos(conjuntos) 
   interseccion_conjuntos(conjuntos)
+  union_conjuntos(conjuntos) 
   diferencia_conjuntos(conjuntos)
   diferencia_simetrica_conjuntos(conjuntos)
   frecuencias_digitos(numeros)
@@ -64,4 +64,5 @@ def operaciones_anios():
   print("Producto cartesiano entre años ingresados y edades actuales:")
   print(producto_cartesiano(anios, edades_actuales))
   
-operaciones_anios()
+#operaciones_anios()
+operaciones_conjuntos()
