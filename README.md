@@ -65,8 +65,13 @@ Además, cumplimos con las consignas de manipular dígitos, hacer cálculos con 
 ## 👤 Gastón Lell
 
 **Tareas realizadas:**
-- [Especificar tareas]
-- [Especificar tareas]
+- Investigación bibliográfica para el contenido del trabajo.
+- Estructura general del proyecto
+- Modularización y abstracción de funciones
+- Con relación a la materia Matematica realizó las siguientes funciones:
+   > Funcionalidad **Producto cartesiano**: La función recibe los conjuntos con los que realizara el producto cartesiano
+   y a través de iteraciónes realizadas con el bucle for a cada conjunto devuelve el resultado
+   > Funcionalidad **Diferencia simétrica de conjuntos**: La función recibe los conjuntos con los que realizara la diferencia simétrica y a través de diferentes iteraciones evaluará cuales son los elementos que se repiten, descartando esos elementos y devolviendo un conjunto con los elementos no repetidos entre conjuntos.
 
 
 ## 🛠️ Tecnologías principales
