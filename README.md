@@ -33,3 +33,41 @@ Además, cumplimos con las consignas de manipular dígitos, hacer cálculos con 
 2. Ejecutar el script:  
    ```bash
    python nombre_del_archivo.py
+
+---
+
+
+## 👤 Gabriel Lovera
+
+**Tareas realizadas:**
+- [Especificar tareas]
+- [Especificar tareas]
+
+---
+
+## 👤 Juan Cruz
+
+**Tareas realizadas:**
+- [Especificar tareas]
+- [Especificar tareas]
+
+---
+
+## 👤 Fabricio Lopez
+
+**Tareas realizadas:**
+- [Especificar tareas]
+- [Especificar tareas]
+
+---
+
+## 👤 Gastón Lell
+
+**Tareas realizadas:**
+- [Especificar tareas]
+- [Especificar tareas]
+
+
+## 🛠️ Tecnologías principales
+
+- Python

@@ -2,7 +2,6 @@
 from helpers.operaciones import frecuencia_digitos, suma_digitos, union_conjuntos, interseccion_conjuntos, diferencia_conjuntos, diferencia_simetrica_conjuntos, crear_conjunto_ordenado
 from helpers.inputs import ingreso_lista_de_numeros
 
-
 def operaciones_conjuntos():
   # definicion de variables necesarias
   numeros = []
@@ -21,8 +20,8 @@ def operaciones_conjuntos():
     print(conjunto)
 
 
-  interseccion_conjuntos(conjuntos)
   union_conjuntos(conjuntos)
+  interseccion_conjuntos(conjuntos)
   diferencia_conjuntos(conjuntos)
   diferencia_simetrica_conjuntos(conjuntos)
 
