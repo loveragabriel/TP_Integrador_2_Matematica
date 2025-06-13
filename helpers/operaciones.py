@@ -7,6 +7,7 @@ def union_conjuntos(conjuntos):
   for conjunto in conjuntos.values():
     union_conjuntos.update(conjunto)
   print("Unión de todos los conjuntos:", sorted(union_conjuntos))
+  return sorted(union_conjuntos)
 
 def interseccion_conjuntos(conjuntos):
   print("Intersección de conjuntos")
@@ -25,11 +26,16 @@ def interseccion_conjuntos(conjuntos):
         else:
           es_interseccion = False
       if es_interseccion: interseccion.append(numero)
+    if len(interseccion) == 1:
+      print(f"Dígito representativo del grupo: {interseccion[0]}")
+    else:
+      print(f"No hay dígito representativo en el grupo")
 
     if len(interseccion):
       print(interseccion)
     else:
       print("No hay elementos que coincidan")
+  return interseccion
 
 # nuevo conjunto que contiene únicamente los elementos que pertenecen al primer conjunto, pero no a los demás
 def diferencia_conjuntos(conjuntos):
@@ -75,19 +81,40 @@ def diferencia_simetrica_conjuntos(conjuntos):
   if len(conjunto_simetrico): print(conjunto_simetrico)
   else: print("No existe")
 
-def frecuencias_digitos(numeros):
-  print("Freciencias de dígitos en numeros ingresados")
-  frecuencias = {}
+# def frecuencias_digitos(numeros):
+#   print("Freciencias de dígitos en numeros ingresados")
+#   frecuencias = {}
   
-  for numero in numeros:
-    for digito in numero:
-      if numero in frecuencias:
-        if digito in frecuencias[numero]:
-          frecuencias[numero][digito] += 1
-        else:
-          frecuencias.update(numero)
-  print(frecuencias)
-  
+#   for numero in numeros:
+#     for digito in numero:
+#       if numero in frecuencias:
+#         if digito in frecuencias[numero]:
+#           frecuencias[numero][digito] += 1
+#         else:
+#           frecuencias.update(numero)
+#   print(frecuencias)
+
+def frecuencia_digitos(dni):
+  print(f"Frecuencia de digitos para el DNI {dni}:\n")
+
+  # Recorremos los digitos posibles del 0 al 9 como caracteres
+  for numero in range(0, 10):
+    contador = 0
+    # Recorremos el DNI caracter por caracter
+    for caracter in dni:
+      if int(caracter) == int(numero):
+        contador += 1
+    # Solo mostramos si el dígito aparece al menos una vez
+    if contador > 0:
+      print(f"Dígito {numero}: {contador} {'vez' if contador == 1 else 'veces'}")
+
+def suma_digitos(dni):
+    suma = 0
+    for digito in dni:
+        if digito.isdigit():
+            suma += int(digito)
+    return suma
+
 def producto_cartesiano(conjunto1, conjunto2):
   producto_cartesiano = []
   
