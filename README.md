@@ -42,7 +42,7 @@ Además, cumplimos con las consignas de manipular dígitos, hacer cálculos con 
 **Tareas realizadas:**
 - Investigación bibliográfica para el contenido del trabajo.
 - Desarrollo de función union_conjuntos en Python, que permite calcular la unión de varios conjuntos a partir de los dígitos de los DNI ingresados, segurando que no haya elementos duplicados.
-- Presentación de Operaciones de Conjuntos (unión, intersección, diferencia, diferencia simétrica y Lógica Proposicional.
+- Presentación de Operaciones de Conjuntos (unión, intersección, diferencia, diferencia simétrica y Lógica Proposicional).
 
 ---
 
@@ -57,8 +57,9 @@ Además, cumplimos con las consignas de manipular dígitos, hacer cálculos con 
 ## 👤 Fabricio Lopez
 
 **Tareas realizadas:**
-- [Especificar tareas]
-- [Especificar tareas]
+- Desarollo de la funcion interseccion de conjuntos 
+- Aportes y correcciones de funciones general 
+- Diagrama de venn
 
 ---
 
