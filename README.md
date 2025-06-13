@@ -41,8 +41,8 @@ Además, cumplimos con las consignas de manipular dígitos, hacer cálculos con 
 
 **Tareas realizadas:**
 - Investigación bibliográfica para el contenido del trabajo.
-- Desarrollo de función union_conjuntos.
-- Presentación de Operaciones de Conjuntos y Lógica Proposicional.
+- Desarrollo de función union_conjuntos en Python, que permite calcular la unión de varios conjuntos a partir de los dígitos de los DNI ingresados, segurando que no haya elementos duplicados.
+- Presentación de Operaciones de Conjuntos (unión, intersección, diferencia, diferencia simétrica y Lógica Proposicional.
 
 ---
 
