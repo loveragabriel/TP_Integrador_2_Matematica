@@ -49,15 +49,14 @@ Además, cumplimos con las consignas de manipular dígitos, hacer cálculos con 
 
 ---
 
-## 👤 Juan Cruz
+## 👤 Juan Cruz Leal
 
 **Tareas realizadas:**
-- [Especificar tareas]
 > Elaboración y explicación del marco teórico de conectores lógicos.
 > Desarrollo y explicación de operaciones de conjuntos y lógica proposicional
 > Desarrollo de la función `diferencia_conjuntos()` en Python.
-- [Especificar tareas]
-> En el análisis de lógica proposicional se abordamos conectores fundamentales como la conjunción (∧), disyunción (∨), negación (¬) e implicación (→), estableciendo su paralelismo con estructuras condicionales en Python como and, or, not e instrucciones if.
+
+> En el análisis de lógica proposicional abordamos conectores fundamentales como la conjunción (∧), disyunción (∨), negación (¬) e implicación (→), estableciendo su paralelismo con estructuras condicionales en Python como and, or, not e instrucciones if.
 > En el desarrollo de la función diferencia_conjuntos, se implementé una lógica booleana que evalúa si una condición se cumple en uno o varios conjuntos.  
 > Por ejemplo: La expresión if numero in conjuntos[i] actúa como una proposición lógica: si se cumple, se interpreta como verdadera.
 > La verificación de que un número no pertenece a ningún otro conjunto se asimila a una conjunción de negaciones (¬P ∧ ¬Q ∧ ¬R...), lo cual justifica su inclusión en el resultado.
