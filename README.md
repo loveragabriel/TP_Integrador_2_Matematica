@@ -40,8 +40,9 @@ Además, cumplimos con las consignas de manipular dígitos, hacer cálculos con 
 ## 👤 Gabriel Lovera
 
 **Tareas realizadas:**
-- [Especificar tareas]
-- [Especificar tareas]
+- Investigación bibliográfica para el contenido del trabajo.
+- Desarrollo de función union_conjuntos.
+- Presentación de Operaciones de Conjuntos y Lógica Proposicional.
 
 ---
 
