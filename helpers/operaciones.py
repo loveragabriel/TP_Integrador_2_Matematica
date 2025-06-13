@@ -81,19 +81,6 @@ def diferencia_simetrica_conjuntos(conjuntos):
   if len(conjunto_simetrico): print(conjunto_simetrico)
   else: print("No existe")
 
-# def frecuencias_digitos(numeros):
-#   print("Freciencias de dígitos en numeros ingresados")
-#   frecuencias = {}
-  
-#   for numero in numeros:
-#     for digito in numero:
-#       if numero in frecuencias:
-#         if digito in frecuencias[numero]:
-#           frecuencias[numero][digito] += 1
-#         else:
-#           frecuencias.update(numero)
-#   print(frecuencias)
-
 def frecuencia_digitos(dni):
   print(f"Frecuencia de digitos para el DNI {dni}:\n")
 
